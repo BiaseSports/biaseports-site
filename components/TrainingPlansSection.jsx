@@ -59,7 +59,7 @@ const plans = [
     price: "$330 / month",
     duration: "",
     audience: "",
-    badge: "Plan",
+    badge: "Most Popular",
     highlights: [
       "Increased intensity + decision speed",
       "Film moments to review",
@@ -75,7 +75,7 @@ const plans = [
     price: "$420 / month",
     duration: "",
     audience: "",
-    badge: "Most Popular",
+    badge: "",
     highlights: [
       "Advanced constraints & scanning",
       "Leadership/mentorship components",
@@ -106,7 +106,7 @@ const plans = [
     tagline: "Solo focused work",
     price: "$90",
     duration: "60 min",
-    audience: "Individual technical focus",
+    audience: "1-4 players",
     badge: "",
     highlights: [
       "Core technique & mechanics",
@@ -240,7 +240,12 @@ export default function TrainingPlansSection() {
       {/* Plans grid */}
       <div className="mx-auto max-w-6xl px-6 pb-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {plans.map((p) => (
-          <article key={p.id} className={`relative rounded-2xl border ${p.featured ? "border-black shadow-[0_6px_0_#000]" : "border-neutral-200 shadow-sm"} bg-white p-5 transition-transform hover:-translate-y-0.5`}>
+          <article key={p.id} className={`relative rounded-2xl border bg-white p-5 transition-transform hover:-translate-y-0.5 ${
+    p.badge === "Most Popular"
+      ? "border-sky-500 shadow-lg shadow-sky-200"
+      : "border-neutral-200 shadow-sm"
+  }`}
+>
             <div className="flex items-start justify-between">
               <div className="flex items-center gap-2 text-neutral-700">
                 <div className="rounded-xl border border-neutral-200 p-2">{p.icon}</div>
