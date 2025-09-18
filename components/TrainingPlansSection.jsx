@@ -49,7 +49,7 @@ const plans = [
       "Homework drills + accountability",
       "Position-specific patterns",
     ],
-    cta: { label: "Choose Basic", href: "#book-basic" },
+    cta: { label: "Choose Basic", href: "/plans/basic" },
     icon: <Zap className="w-5 h-5"/>,
   },
   {
