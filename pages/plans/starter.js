@@ -10,7 +10,7 @@ export default function StarterPlan() {
 
       <p className="mt-5 text-neutral-700">
         Foundation & consistency. Structured drills for core skills, session cadence
-        tailored to schedule, and progress tracking toward your next Sock Level. Includes <strong>4 sessions per month
+        tailored to schedule, and progress tracking toward your next Sock Level. Includes <strong>4 sessions per month.
       </p>
 
       <div className="mt-6">
