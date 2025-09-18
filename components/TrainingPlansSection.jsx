@@ -33,7 +33,7 @@ const plans = [
       "Session cadence tailored to schedule",
       "Progress tracking toward next Sock Level",
     ],
-    cta: { label: "Choose Starter", href: "#book-starter" },
+    cta: { label: "Choose Starter", href: "/plans/starter" },
     icon: <Zap className="w-5 h-5"/>,
   },
   {
