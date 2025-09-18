@@ -11,9 +11,11 @@ export default function BasicPlan() {
       <div className="mt-2 text-neutral-600">$240 / month</div>
 
       <p className="mt-5 text-neutral-700">
-        Build & refine. Higher reps, focused corrections, and position-specific
-        patterns to accelerate your development.
+  Build & refine. Higher reps, focused corrections, and position-specific patterns
+  to accelerate your development. Includes <strong>4 sessions per month</strong> plus
+  <strong> game observation</strong>.
       </p>
+
 
       <div className="mt-6">
         <h2 className="font-semibold text-lg">What’s included</h2>
