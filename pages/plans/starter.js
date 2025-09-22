@@ -16,11 +16,12 @@ export default function StarterPlan() {
       <div className="mt-6">
         <h2 className="font-semibold text-lg">What’s included</h2>
         <ul className="mt-2 list-disc pl-5 space-y-1 text-neutral-700">
-          <li>Weekly training sessions (customizable cadence)</li>
-          <li>Technical foundations: first touch, ball mastery, passing</li>
-          <li>Homework drills & accountability</li>
-          <li>Progress logged toward Sock Levels</li>
-        </ul>
+  <li><strong>4 sessions per month</strong></li>
+  <li>Technical foundations: first touch, ball mastery, passing</li>
+  <li>Homework drills & accountability</li>
+  <li>Progress logged toward Sock Levels</li>
+</ul>
+
       </div>
 
       {/* Payment */}
