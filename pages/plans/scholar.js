@@ -13,9 +13,9 @@ export default function ScholarPlan() {
 
       <p className="mt-5 text-neutral-700">
   Elite habits & leadership. Advanced constraints, leadership/mentorship components,
-  and focused prep for level tests and gold-star performance. Includes 
-  <strong>8 sessions per month</strong> plus <strong>game observation</strong> and a 
-  <strong> film session</strong>.
+  and focused prep for level tests and gold-star performance.{" "}
+  Includes <strong>8 sessions per month</strong> plus <strong>game observation</strong> and a{" "}
+  <strong>film session</strong>.
 </p>
 
       <div className="mt-6">
