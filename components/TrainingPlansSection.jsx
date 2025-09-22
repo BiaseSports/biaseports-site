@@ -81,7 +81,7 @@ const plans = [
       "Leadership/mentorship components",
       "Level test prep & gold-star pursuit",
     ],
-    cta: { label: "Choose Scholar", href: "#book-scholar" },
+    cta: { label: "Choose Scholar", href: "/plans/scholar" },
     icon: <Award className="w-5 h-5"/>,
   },
   {
