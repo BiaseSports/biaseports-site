@@ -12,18 +12,21 @@ export default function ScholarPlan() {
       <div className="mt-2 text-neutral-600">$420 / month</div>
 
       <p className="mt-5 text-neutral-700">
-        Elite habits & leadership. Advanced constraints, leadership/mentorship components,
-        and focused prep for level tests and gold-star performance.
-      </p>
+  Elite habits & leadership. Advanced constraints, leadership/mentorship components,
+  and focused prep for level tests and gold-star performance. Includes 
+  <strong>8 sessions per month</strong> plus <strong>game observation</strong> and a 
+  <strong> film session</strong>.
+</p>
 
       <div className="mt-6">
         <h2 className="font-semibold text-lg">What’s included</h2>
         <ul className="mt-2 list-disc pl-5 space-y-1 text-neutral-700">
-          <li>Advanced tactical scenarios & high-intensity constraints</li>
-          <li>Leadership & mentorship components on and off the field</li>
-          <li>Level test preparation & gold-star pursuit</li>
-          <li>Customized homework, recovery, and prehab guidance</li>
-        </ul>
+  <li><strong>8 sessions per month</strong> + <strong>game observation</strong> + <strong>film session</strong></li>
+  <li>Advanced tactical scenarios & high-intensity constraints</li>
+  <li>Leadership & mentorship components on and off the field</li>
+  <li>Level test preparation & gold-star pursuit</li>
+  <li>Customized homework, recovery, and prehab guidance</li>
+</ul>
       </div>
 
       {/* Payment */}
