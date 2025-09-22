@@ -11,12 +11,13 @@ export default function ScholarPlan() {
       <h1 className="mt-3 text-3xl font-extrabold">Scholar (Monthly)</h1>
       <div className="mt-2 text-neutral-600">$420 / month</div>
 
-      <p className="mt-5 text-neutral-700">
+     <p className="mt-5 text-neutral-700">
   Elite habits & leadership. Advanced constraints, leadership/mentorship components,
-  and focused prep for level tests and gold-star performance.{" "}
+  and focused prep for level tests and gold-star performance.&nbsp;
   Includes <strong>8 sessions per month</strong> plus <strong>game observation</strong> and a{" "}
   <strong>film session</strong>.
 </p>
+
 
       <div className="mt-6">
         <h2 className="font-semibold text-lg">What’s included</h2>
