@@ -65,7 +65,7 @@ const plans = [
       "Film moments to review",
       "Milestones toward level tests",
     ],
-    cta: { label: "Choose Trainee", href: "#book-trainee" },
+    cta: { label: "Choose Trainee", href: "/plans/trainee" },
     icon: <Zap className="w-5 h-5"/>,
   },
   {
