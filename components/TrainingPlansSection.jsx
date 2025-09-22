@@ -2,6 +2,21 @@ import React from "react";
 import { Check, Star, Clock, Users, Dumbbell, Video, Award, Zap, Flag, Target } from "lucide-react";
 
 // ---------- Editable data ----------
+const slugMap = {
+  starter: "starter",
+  basic: "basic",
+  trainee: "trainee",          
+  scholar: "scholar",
+  evaluation: "evaluation",
+  single_1v1: "one-on-one",
+  single_private: "private-session",
+  single_group: "group-session",
+  parent_player: "parent-player",
+  soccer_flag: "soccer-flag",
+  game_observation: "game-observation",
+  film_session: "film-session",
+};
+
 const plans = [
   {
     id: "evaluation",
